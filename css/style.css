@@ -9,7 +9,6 @@
 .container {
   margin: auto;
   max-width: 1100px;
-  overflow: auto;
   padding: 0 20px;
 }
 .section-padding {
@@ -145,4 +144,46 @@ nav ul li a:hover, nav ul li a.active {
 #about .about-content .education-grid .education-item h4 {
   font-size: 15px;
   font-weight: 500;
+}
+
+/* Blogs */
+#blogs header h1 {
+  font-size: 2rem;
+}
+#blogs .column {
+  float: left;
+  width: 33.3%;
+  padding: 0 10px;
+}
+#blogs .blogs-content:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+#blogs .blogs-content .card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  background-color: #f3f3f3;
+  border-radius: 5px;
+}
+#blogs .blogs-content .card img {
+  width: 100%;
+  border-radius: 5px 5px 0 0;
+}
+#blogs .blogs-content .card .blog-body {
+  padding: 10px 20px;
+}
+#blogs .blogs-content .card .blog-body .blog-title {
+  padding-bottom: 5px;
+}
+#blogs .blogs-content .card .blog-body .meta {
+  font-size: 13px;
+  color: #666;
+}
+#blogs .blogs-content .card .blog-body .blog-text {
+  font-size: 14px;
+  color: #444;
+  line-height: 20px;
+}
+#blogs .blogs-content .card .blog-body .blog-text a {
+  color: darkorange;
 }
