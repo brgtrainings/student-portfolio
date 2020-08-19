@@ -1,0 +1,64 @@
+/* Resets */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Util Classes */
+.container {
+  margin: auto;
+  max-width: 1100px;
+  overflow: auto;
+  padding: 0 20px;
+}
+
+/* Main CSS */
+html, body {
+  font-family: Helvetica, Arial, sans-serif;
+  line-height: 1.7rem;
+}
+
+a {
+  text-decoration: none;
+  color: #444;
+}
+
+h1, h2, h3 {
+  padding-bottom: 20px;
+}
+
+p {
+  margin: 10px 0;
+}
+
+/* Navbar */
+nav {
+  background: #444;
+  color: #fff;
+  overflow: auto;
+}
+nav a {
+  color: #fff;
+}
+nav h1 {
+  float: left;
+  padding-top: 20px;
+}
+nav ul {
+  float: right;
+  list-style: none;
+}
+nav ul li {
+  float: left;
+}
+nav ul li a {
+  display: block;
+  padding: 20px;
+  text-align: center;
+}
+
+nav ul li a:hover, nav ul li a.active {
+  background: #555;
+  color: orange;
+}
