@@ -12,6 +12,9 @@
   overflow: auto;
   padding: 0 20px;
 }
+.section-padding {
+  padding: 60px 0;
+}
 
 /* Main CSS */
 html, body {
@@ -61,4 +64,16 @@ nav ul li a {
 nav ul li a:hover, nav ul li a.active {
   background: #555;
   color: orange;
+}
+
+/* Introduction */
+#intro .profile, #intro .intro-body {
+  text-align: center;
+}
+#intro .profile img {
+  height: 150px;
+  width: auto;
+}
+#intro .intro-body h1 {
+  padding-bottom: 5px;
 }
