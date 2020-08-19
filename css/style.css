@@ -187,3 +187,9 @@ nav ul li a:hover, nav ul li a.active {
 #blogs .blogs-content .card .blog-body .blog-text a {
   color: darkorange;
 }
+
+/* footer */
+footer {
+  background: #ccc;
+  padding: 20px;
+}
