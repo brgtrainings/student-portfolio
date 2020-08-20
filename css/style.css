@@ -89,6 +89,10 @@ nav ul li a:hover, nav ul li a.active {
   padding-bottom: 5px;
 }
 
+#intro .social-links a {
+  margin-right: 0.5rem;
+}
+
 /* About */
 #about {
   background-color: #eee;
